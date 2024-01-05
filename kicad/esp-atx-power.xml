@@ -1,0 +1,2156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/william/workspaces/esp-atx-power/kicad/esp-atx-power.kicad_sch</source>
+    <date>2024 January 14, Sunday 01:08:04</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESP32 ATX Power Controller</title>
+        <company/>
+        <rev>1.0.0</rev>
+        <date>2024-01-14</date>
+        <source>esp-atx-power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/">
+      <title_block>
+        <title>ESP32 ATX Power Controller</title>
+        <company/>
+        <rev>1.0.0</rev>
+        <date>2024-01-14</date>
+        <source>esp32.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C103">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C1525</field>
+        <field name="MFR Part#">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C1525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05B104KO5NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f58b82e2-241c-4a4e-ab23-d35c798e2c05</tstamps>
+    </comp>
+    <comp ref="C104">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C15525</field>
+        <field name="MFR Part#">CL05A106MQ5NUNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C15525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05A106MQ5NUNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0a2a4f7-4354-408e-aab9-12da343852e1</tstamps>
+    </comp>
+    <comp ref="C105">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C1525</field>
+        <field name="MFR Part#">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C1525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05B104KO5NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08fbb3a1-4f6d-42fc-ba72-7e9da9ef4f0c</tstamps>
+    </comp>
+    <comp ref="C106">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C1525</field>
+        <field name="MFR Part#">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C1525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05B104KO5NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04292670-4cae-4599-bf71-74645d417c2d</tstamps>
+    </comp>
+    <comp ref="C107">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C23733</field>
+        <field name="MFR Part#">CL05A475MP5NRNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C23733"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05A475MP5NRNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20b87144-707f-4b1f-824a-ec36951a8fff</tstamps>
+    </comp>
+    <comp ref="C108">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C1525</field>
+        <field name="MFR Part#">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C1525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05B104KO5NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31920e04-6042-4349-8f60-f9d8e91978ef</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>TPD1E05U06</value>
+      <footprint>Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C436349</field>
+        <field name="MFR Part#">TPD1E05U06DPYR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="JLCPCB Part#" value="C436349"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MFR Part#" value="TPD1E05U06DPYR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf853abd-f9f4-482c-bc05-2875eaa8f9bf</tstamps>
+    </comp>
+    <comp ref="D102">
+      <value>TPD1E05U06</value>
+      <footprint>Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C436349</field>
+        <field name="MFR Part#">TPD1E05U06DPYR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="JLCPCB Part#" value="C436349"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MFR Part#" value="TPD1E05U06DPYR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb91739f-19f1-4747-8556-cde2cd4f4cf4</tstamps>
+    </comp>
+    <comp ref="D103">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C2286</field>
+        <field name="MFR Part#">KT-0603R</field>
+        <field name="Manufacturer">Hubei KENTO Elec</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="JLCPCB Part#" value="C2286"/>
+      <property name="Manufacturer" value="Hubei KENTO Elec"/>
+      <property name="MFR Part#" value="KT-0603R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9835bbd-822d-488a-8af4-d4799ace246f</tstamps>
+    </comp>
+    <comp ref="D104">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C72043</field>
+        <field name="MFR Part#">19-217/GHC-YR1S2/3T</field>
+        <field name="Manufacturer">Everlight Elec</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="JLCPCB Part#" value="C72043"/>
+      <property name="Manufacturer" value="Everlight Elec"/>
+      <property name="MFR Part#" value="19-217/GHC-YR1S2/3T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82e3224f-f399-4ac2-860b-0580f35b6e19</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>Conn_02x02_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2201121730_DEALON-DZ254W-22-04-69_C2935934.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C2935934</field>
+        <field name="MFR Part#">DZ254W-22-04-69</field>
+        <field name="Manufacturer">DEALON</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB Part#" value="C2935934"/>
+      <property name="Manufacturer" value="DEALON"/>
+      <property name="MFR Part#" value="DZ254W-22-04-69"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>890a03d1-dc05-4b04-9c51-6225ed6b3b86</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>Conn_02x02_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2201121730_DEALON-DZ254W-22-04-69_C2935934.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C2935934</field>
+        <field name="MFR Part#">DZ254W-22-04-69</field>
+        <field name="Manufacturer">DEALON</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB Part#" value="C2935934"/>
+      <property name="Manufacturer" value="DEALON"/>
+      <property name="MFR Part#" value="DZ254W-22-04-69"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee0cd3c1-d510-4526-b4e2-4369c68f43e2</tstamps>
+    </comp>
+    <comp ref="J103">
+      <value>Conn_02x02_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2201121730_DEALON-DZ254W-22-04-69_C2935934.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C2935934</field>
+        <field name="MFR Part#">DZ254W-22-04-69</field>
+        <field name="Manufacturer">DEALON</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB Part#" value="C2935934"/>
+      <property name="Manufacturer" value="DEALON"/>
+      <property name="MFR Part#" value="DZ254W-22-04-69"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00c01685-bc82-423e-8c19-b9859a75bfb0</tstamps>
+    </comp>
+    <comp ref="J104">
+      <value>Conn_02x02_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2201121730_DEALON-DZ254W-22-04-69_C2935934.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C2935934</field>
+        <field name="MFR Part#">DZ254W-22-04-69</field>
+        <field name="Manufacturer">DEALON</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB Part#" value="C2935934"/>
+      <property name="Manufacturer" value="DEALON"/>
+      <property name="MFR Part#" value="DZ254W-22-04-69"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfc02605-279c-4388-929d-06d5bf527b6e</tstamps>
+    </comp>
+    <comp ref="J105">
+      <value>GT-USB-7010ASV</value>
+      <footprint>Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2303271630_G-Switch-GT-USB-7010ASV_C2988369.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C2988369</field>
+        <field name="MFR Part#">GT-USB-7010ASV</field>
+        <field name="Manufacturer">G-Switch</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="JLCPCB Part#" value="C2988369"/>
+      <property name="Manufacturer" value="G-Switch"/>
+      <property name="MFR Part#" value="GT-USB-7010ASV"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d1afccd-b53b-4696-ba5f-237bdd5b3f50</tstamps>
+    </comp>
+    <comp ref="K101">
+      <value>G3VM-61D1</value>
+      <footprint>Package_DIP:DIP-4_W7.62mm_SMDSocket_SmallPads</footprint>
+      <datasheet>https://www.omron.com/ecb/products/pdf/en-g3vm_61a1_d1.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C469131</field>
+        <field name="MFR Part#">G3VM-61D1(TR)</field>
+        <field name="Manufacturer">Omron Electronics</field>
+      </fields>
+      <libsource lib="G3VM-61D1" part="G3VM-61D1" description="MOSFET relay, 4pin DIP SMD, 60V 0.5A 0.5 A Through Hole, DC Switching SPST-NO MOSFET Solid State Relay, 1.3 V"/>
+      <property name="Manufacturer" value="Omron Electronics"/>
+      <property name="MFR Part#" value="G3VM-61D1(TR)"/>
+      <property name="JLCPCB Part#" value="C469131"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="MOSFET relay, 4pin DIP SMD, 60V 0.5A 0.5 A Through Hole, DC Switching SPST-NO MOSFET Solid State Relay, 1.3 V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0e386c7-78eb-4ab9-b9b9-dc98c8ccd84b</tstamps>
+    </comp>
+    <comp ref="K102">
+      <value>G3VM-61D1</value>
+      <footprint>Package_DIP:DIP-4_W7.62mm_SMDSocket_SmallPads</footprint>
+      <datasheet>https://www.omron.com/ecb/products/pdf/en-g3vm_61a1_d1.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C469131</field>
+        <field name="MFR Part#">G3VM-61D1(TR)</field>
+        <field name="Manufacturer">Omron Electronics</field>
+      </fields>
+      <libsource lib="G3VM-61D1" part="G3VM-61D1" description="MOSFET relay, 4pin DIP SMD, 60V 0.5A 0.5 A Through Hole, DC Switching SPST-NO MOSFET Solid State Relay, 1.3 V"/>
+      <property name="Manufacturer" value="Omron Electronics"/>
+      <property name="MFR Part#" value="G3VM-61D1(TR)"/>
+      <property name="JLCPCB Part#" value="C469131"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="MOSFET relay, 4pin DIP SMD, 60V 0.5A 0.5 A Through Hole, DC Switching SPST-NO MOSFET Solid State Relay, 1.3 V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0be9e27-357c-401b-84bf-f6fa27a1b36a</tstamps>
+    </comp>
+    <comp ref="K103">
+      <value>G3VM-61D1</value>
+      <footprint>Package_DIP:DIP-4_W7.62mm_SMDSocket_SmallPads</footprint>
+      <datasheet>https://www.omron.com/ecb/products/pdf/en-g3vm_61a1_d1.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C469131</field>
+        <field name="MFR Part#">G3VM-61D1(TR)</field>
+        <field name="Manufacturer">Omron Electronics</field>
+      </fields>
+      <libsource lib="G3VM-61D1" part="G3VM-61D1" description="MOSFET relay, 4pin DIP SMD, 60V 0.5A 0.5 A Through Hole, DC Switching SPST-NO MOSFET Solid State Relay, 1.3 V"/>
+      <property name="Manufacturer" value="Omron Electronics"/>
+      <property name="MFR Part#" value="G3VM-61D1(TR)"/>
+      <property name="JLCPCB Part#" value="C469131"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="MOSFET relay, 4pin DIP SMD, 60V 0.5A 0.5 A Through Hole, DC Switching SPST-NO MOSFET Solid State Relay, 1.3 V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>190f7742-d370-4c3f-a99c-c414060149ad</tstamps>
+    </comp>
+    <comp ref="K104">
+      <value>G3VM-61D1</value>
+      <footprint>Package_DIP:DIP-4_W7.62mm_SMDSocket_SmallPads</footprint>
+      <datasheet>https://www.omron.com/ecb/products/pdf/en-g3vm_61a1_d1.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C469131</field>
+        <field name="MFR Part#">G3VM-61D1(TR)</field>
+        <field name="Manufacturer">Omron Electronics</field>
+      </fields>
+      <libsource lib="G3VM-61D1" part="G3VM-61D1" description="MOSFET relay, 4pin DIP SMD, 60V 0.5A 0.5 A Through Hole, DC Switching SPST-NO MOSFET Solid State Relay, 1.3 V"/>
+      <property name="Manufacturer" value="Omron Electronics"/>
+      <property name="MFR Part#" value="G3VM-61D1(TR)"/>
+      <property name="JLCPCB Part#" value="C469131"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="MOSFET relay, 4pin DIP SMD, 60V 0.5A 0.5 A Through Hole, DC Switching SPST-NO MOSFET Solid State Relay, 1.3 V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da191057-0cc6-4907-9aba-f69ff798dd8f</tstamps>
+    </comp>
+    <comp ref="Q101">
+      <value>SS8050</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2303221100_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--SS8050_C2150.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C2150</field>
+        <field name="MFR Part#">SS8050</field>
+        <field name="Manufacturer">Jiangsu Changjing Electronics Technology Co., Ltd.</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <property name="JLCPCB Part#" value="C2150"/>
+      <property name="Manufacturer" value="Jiangsu Changjing Electronics Technology Co., Ltd."/>
+      <property name="MFR Part#" value="SS8050"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="NPN transistor, base/emitter/collector"/>
+      <property name="ki_keywords" value="transistor NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9447c608-de79-40f8-b050-ec763e3ae1ac</tstamps>
+    </comp>
+    <comp ref="Q102">
+      <value>SS8050</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2303221100_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--SS8050_C2150.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C2150</field>
+        <field name="MFR Part#">SS8050</field>
+        <field name="Manufacturer">Jiangsu Changjing Electronics Technology Co., Ltd.</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <property name="JLCPCB Part#" value="C2150"/>
+      <property name="Manufacturer" value="Jiangsu Changjing Electronics Technology Co., Ltd."/>
+      <property name="MFR Part#" value="SS8050"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="NPN transistor, base/emitter/collector"/>
+      <property name="ki_keywords" value="transistor NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fb2b1e4-cdf2-4447-9422-1a94ae404ed0</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF3900T5E_C23151.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C23151</field>
+        <field name="MFR Part#">0603WAF3900T5E</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C23151"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0603WAF3900T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32d36397-85ef-4e9b-a2d4-3ab4e53389d4</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF3900T5E_C23151.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C23151</field>
+        <field name="MFR Part#">0603WAF3900T5E</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C23151"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0603WAF3900T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43623370-aa0a-4a27-aab1-6aef1adc1cca</tstamps>
+    </comp>
+    <comp ref="R103">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C25744</field>
+        <field name="MFR Part#">0402WGF1002TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C25744"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0402WGF1002TCE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2718b4e-2d17-42aa-973c-d3f0bbe37836</tstamps>
+    </comp>
+    <comp ref="R104">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF3900T5E_C23151.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C23151</field>
+        <field name="MFR Part#">0603WAF3900T5E</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C23151"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0603WAF3900T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8988ffe1-833f-4a16-8c73-8dead722402a</tstamps>
+    </comp>
+    <comp ref="R105">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C25900</field>
+        <field name="MFR Part#">0402WGF4701TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C25900"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0402WGF4701TCE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dcea438-fb3b-4c3b-adc9-33b09a23b367</tstamps>
+    </comp>
+    <comp ref="R106">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF3900T5E_C23151.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C23151</field>
+        <field name="MFR Part#">0603WAF3900T5E</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C23151"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0603WAF3900T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cd01c76-cbdd-4618-9785-91a772c4eb21</tstamps>
+    </comp>
+    <comp ref="R107">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C25900</field>
+        <field name="MFR Part#">0402WGF4701TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C25900"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0402WGF4701TCE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>807d15a3-2a55-403e-9d2b-e2211be9528b</tstamps>
+    </comp>
+    <comp ref="R108">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C25744</field>
+        <field name="MFR Part#">0402WGF1002TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C25744"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0402WGF1002TCE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91969fb5-424f-4adc-94e5-aad2753d999c</tstamps>
+    </comp>
+    <comp ref="R109">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C25744</field>
+        <field name="MFR Part#">0402WGF1002TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C25744"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0402WGF1002TCE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93f23abd-d3e5-4bea-a375-f5359d1a1dd4</tstamps>
+    </comp>
+    <comp ref="R110">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C25905</field>
+        <field name="MFR Part#">0402WGF5101TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C25905"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0402WGF5101TCE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f57b52b-f6bf-4ec9-b294-b3a67edbaa28</tstamps>
+    </comp>
+    <comp ref="R111">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C25905</field>
+        <field name="MFR Part#">0402WGF5101TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C25905"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0402WGF5101TCE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dea04c7-d34b-4534-b261-a557ae5c9ccd</tstamps>
+    </comp>
+    <comp ref="R112">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C25744</field>
+        <field name="MFR Part#">0402WGF1002TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C25744"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0402WGF1002TCE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2a2d0f0-285b-45f1-8ddf-8c49d3c6c705</tstamps>
+    </comp>
+    <comp ref="R113">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C25744</field>
+        <field name="MFR Part#">0402WGF1002TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C25744"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0402WGF1002TCE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c707071-f3f4-48bc-ae48-c3a9e517275b</tstamps>
+    </comp>
+    <comp ref="R114">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C25076</field>
+        <field name="MFR Part#">0402WGF1000TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C25076"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0402WGF1000TCE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da5ce5f7-a650-420e-8dfa-0031e6b893d4</tstamps>
+    </comp>
+    <comp ref="R115">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF100JTCE_C25077.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C25077</field>
+        <field name="MFR Part#">0402WGF100JTCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C25077"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0402WGF100JTCE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>037b39c2-dd2e-40d6-afa4-78a319cca583</tstamps>
+    </comp>
+    <comp ref="SW101">
+      <value>TS-1187A-B-A-B</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C318884</field>
+        <field name="MFR Part#">TS-1187A-B-A-B</field>
+        <field name="Manufacturer">XKB Connectivity</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="JLCPCB Part#" value="C318884"/>
+      <property name="Manufacturer" value="XKB Connectivity"/>
+      <property name="MFR Part#" value="TS-1187A-B-A-B"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f1f34c0-c090-4152-95d2-6c14b8b45488</tstamps>
+    </comp>
+    <comp ref="SW102">
+      <value>TS-1187A-B-A-B</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C318884</field>
+        <field name="MFR Part#">TS-1187A-B-A-B</field>
+        <field name="Manufacturer">XKB Connectivity</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="JLCPCB Part#" value="C318884"/>
+      <property name="Manufacturer" value="XKB Connectivity"/>
+      <property name="MFR Part#" value="TS-1187A-B-A-B"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bae9c5b2-4072-422d-88f3-302a6bcd08a4</tstamps>
+    </comp>
+    <comp ref="U102">
+      <value>LD1117S33CTR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C35879</field>
+        <field name="MFR Part#">LD1117S33CTR</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LD1117S33TR_SOT223" description="800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="JLCPCB Part#" value="C35879"/>
+      <property name="MFR Part#" value="LD1117S33CTR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"/>
+      <property name="ki_keywords" value="REGULATOR LDO 3.3V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3f5318a-5652-45bd-b2aa-d818d7500440</tstamps>
+    </comp>
+    <comp ref="U103">
+      <value>USBLC6-2P6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-666</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C15999</field>
+        <field name="MFR Part#">USBLC6-2P6</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+      </fields>
+      <libsource lib="Power_Protection" part="USBLC6-2P6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-666"/>
+      <property name="JLCPCB Part#" value="C15999"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="MFR Part#" value="USBLC6-2P6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="Very low capacitance ESD protection diode, 2 data-line, SOT-666"/>
+      <property name="ki_keywords" value="usb ethernet video"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d1c749f-3116-41d4-8c58-c47b53f036ad</tstamps>
+    </comp>
+    <comp ref="U104">
+      <value>CP2102-GMR</value>
+      <footprint>Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C6568</field>
+        <field name="MFR Part#">CP2102-GMR</field>
+        <field name="Manufacturer">Silicon Labs</field>
+      </fields>
+      <libsource lib="Interface_USB" part="CP2102N-Axx-xQFN28" description="USB to UART master bridge, QFN-28"/>
+      <property name="Manufacturer" value="Silicon Labs"/>
+      <property name="JLCPCB Part#" value="C6568"/>
+      <property name="MFR Part#" value="CP2102-GMR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp-atx-power.kicad_sch"/>
+      <property name="ki_description" value="USB to UART master bridge, QFN-28"/>
+      <property name="ki_keywords" value="USB UART bridge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bfb69ac-bd11-40d3-ac6e-64d1436ddf66</tstamps>
+    </comp>
+    <comp ref="C201">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG101J500NT_C1546.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C1546</field>
+        <field name="MFR Part#">0402CG101J500NT</field>
+        <field name="Manufacturer">FH (Guangdong Fenghua Advanced Tech)</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C1546"/>
+      <property name="Manufacturer" value="FH (Guangdong Fenghua Advanced Tech)"/>
+      <property name="MFR Part#" value="0402CG101J500NT"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>632dcee8-42af-405f-ab45-1d05bc25d47d</tstamps>
+    </comp>
+    <comp ref="C202">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C1525</field>
+        <field name="MFR Part#">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C1525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05B104KO5NNNC"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>88ae144f-320c-4ec4-862b-4748c014cc05</tstamps>
+    </comp>
+    <comp ref="C203">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C52923</field>
+        <field name="MFR Part#">CL05A105KA5NQNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C52923"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05A105KA5NQNC"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>676c7675-c516-4de1-85c9-d3f572aee30b</tstamps>
+    </comp>
+    <comp ref="C204">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C15525</field>
+        <field name="MFR Part#">CL05A106MQ5NUNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C15525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05A106MQ5NUNC"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>73f3e5ab-b136-40f9-a7c4-56f47db8f210</tstamps>
+    </comp>
+    <comp ref="C205">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A226MQ8NRNC_C59461.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C59461</field>
+        <field name="MFR Part#">CL10A226MQ8NRNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C59461"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL10A226MQ8NRNC"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>0013cb73-098a-4948-902e-186fe5990a9d</tstamps>
+    </comp>
+    <comp ref="C206">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C1525</field>
+        <field name="MFR Part#">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C1525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05B104KO5NNNC"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>10f5bd4c-8d5c-452a-8118-4ea7bb367e2b</tstamps>
+    </comp>
+    <comp ref="C207">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C1525</field>
+        <field name="MFR Part#">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C1525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05B104KO5NNNC"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>e3f970a4-fe62-4d0a-b13c-f33cf5f3f395</tstamps>
+    </comp>
+    <comp ref="C208">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C1525</field>
+        <field name="MFR Part#">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C1525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05B104KO5NNNC"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>e2d32070-e45d-43f4-907e-369d1ebc97c2</tstamps>
+    </comp>
+    <comp ref="C209">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C1525</field>
+        <field name="MFR Part#">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C1525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05B104KO5NNNC"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>ac93eb84-2f69-45ca-837b-adf9040734af</tstamps>
+    </comp>
+    <comp ref="C210">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C52923</field>
+        <field name="MFR Part#">CL05A105KA5NQNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C52923"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05A105KA5NQNC"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>8e83be4f-5166-47b5-8a18-647692492ad5</tstamps>
+    </comp>
+    <comp ref="C211">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG101J500NT_C1546.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C1546</field>
+        <field name="MFR Part#">0402CG101J500NT</field>
+        <field name="Manufacturer">FH (Guangdong Fenghua Advanced Tech)</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C1546"/>
+      <property name="Manufacturer" value="FH (Guangdong Fenghua Advanced Tech)"/>
+      <property name="MFR Part#" value="0402CG101J500NT"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>69427067-a576-41f1-92e3-c261f80753da</tstamps>
+    </comp>
+    <comp ref="C212">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C1525</field>
+        <field name="MFR Part#">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C1525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05B104KO5NNNC"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>e0bfc5d7-10cd-48ee-95d0-3aff04f60f4a</tstamps>
+    </comp>
+    <comp ref="C213">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C52923</field>
+        <field name="MFR Part#">CL05A105KA5NQNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C52923"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFR Part#" value="CL05A105KA5NQNC"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>3f7d1b2c-06f9-4eb7-b47e-68a468a81b6e</tstamps>
+    </comp>
+    <comp ref="C214">
+      <value>12p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C1547</field>
+        <field name="MFR Part#">0402CG120J500NT</field>
+        <field name="Manufacturer">FH (Guangdong Fenghua Advanced Tech)</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C1547"/>
+      <property name="Manufacturer" value="FH (Guangdong Fenghua Advanced Tech)"/>
+      <property name="MFR Part#" value="0402CG120J500NT"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>1fd6ce70-abcc-4cfb-b099-7ffda52e3e97</tstamps>
+    </comp>
+    <comp ref="C215">
+      <value>12p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C1547</field>
+        <field name="MFR Part#">0402CG120J500NT</field>
+        <field name="Manufacturer">FH (Guangdong Fenghua Advanced Tech)</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value="C1547"/>
+      <property name="Manufacturer" value="FH (Guangdong Fenghua Advanced Tech)"/>
+      <property name="MFR Part#" value="0402CG120J500NT"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>d2b9d5b7-2be0-4f33-808a-f8aabf5361ec</tstamps>
+    </comp>
+    <comp ref="C216">
+      <value>TBD</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="MFR Part#" value=""/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>aa9a779d-95ac-4114-a9f3-e78cf1d12f79</tstamps>
+    </comp>
+    <comp ref="C217">
+      <value>TBD</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Part#" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="MFR Part#" value=""/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>f154a0e7-9560-4307-a069-45644c7b82d4</tstamps>
+    </comp>
+    <comp ref="L201">
+      <value>2n</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_Murata-Electronics-LQG15HS2N0S02D_C18216.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C18216</field>
+        <field name="MFR Part#">LQG15HS2N0S02D</field>
+        <field name="Manufacturer">Murata Electronics</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MFR Part#" value="LQG15HS2N0S02D"/>
+      <property name="JLCPCB Part#" value="C18216"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>a9cbea2a-59cc-4029-b43b-a2ffe02f0a84</tstamps>
+    </comp>
+    <comp ref="L202">
+      <value>TBD</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Manufacturer" value=""/>
+      <property name="MFR Part#" value=""/>
+      <property name="JLCPCB Part#" value=""/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>3f17c79c-37ef-4781-a4d9-9345aa65bade</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF4700TCE_C25117.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C25117</field>
+        <field name="MFR Part#">0402WGF4700TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C25117"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="MFR Part#" value="0402WGF4700TCE"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>d2193d1d-eb9a-4197-bfbc-1efcf0d634db</tstamps>
+    </comp>
+    <comp ref="U201">
+      <value>ESP32-S2FH4</value>
+      <footprint>Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C2840995</field>
+        <field name="MFR Part#">ESP32-S2FH4</field>
+        <field name="Manufacturer">Espressif Systems</field>
+      </fields>
+      <libsource lib="ESP32-S2FH4" part="ESP32-S2FH4" description=""/>
+      <property name="Manufacturer" value="Espressif Systems"/>
+      <property name="MFR Part#" value="ESP32-S2FH4"/>
+      <property name="JLCPCB Part#" value="C2840995"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>8b347031-37e9-47f9-92cb-13e4cb03b3d3</tstamps>
+    </comp>
+    <comp ref="Y201">
+      <value>40MHz</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2108150430_KYX-K3A4000010-510_C2875582.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C2875582</field>
+        <field name="MFR Part#">K3A4000010.510</field>
+        <field name="Manufacturer">KYX</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Manufacturer" value="KYX"/>
+      <property name="MFR Part#" value="K3A4000010.510"/>
+      <property name="JLCPCB Part#" value="C2875582"/>
+      <property name="Sheetname" value="ESP32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/ESP32/" tstamps="/9e714725-3720-4e00-8d22-6e68b4cc52f1/"/>
+      <tstamps>9f2dbf20-5a3d-44e3-aaaa-fd6abd22ecf6</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x02_Odd_Even">
+      <description>Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Antenna_Chip">
+      <description>Ceramic chip antenna with pin for PCB trace</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna_Chip</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FEED" type="input"/>
+        <pin num="2" name="PCB_Trace" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BEC">
+      <description>NPN transistor, base/emitter/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-S2FH4" part="ESP32-S2FH4">
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-S2FH4</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf</field>
+        <field name="Manufacturer">Espressif Systems</field>
+        <field name="MFR Part#">ESP32-S2FH4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDA" type="power_in"/>
+        <pin num="2" name="LNA_IN" type="bidirectional"/>
+        <pin num="3" name="VDD3P3" type="power_in"/>
+        <pin num="4" name="VDD3P3" type="power_in"/>
+        <pin num="5" name="IO0/BOOT" type="bidirectional"/>
+        <pin num="6" name="IO1" type="bidirectional"/>
+        <pin num="7" name="IO2" type="bidirectional"/>
+        <pin num="8" name="IO3" type="bidirectional"/>
+        <pin num="9" name="IO4" type="bidirectional"/>
+        <pin num="10" name="IO5" type="bidirectional"/>
+        <pin num="11" name="IO6" type="bidirectional"/>
+        <pin num="12" name="IO7" type="bidirectional"/>
+        <pin num="13" name="IO8" type="bidirectional"/>
+        <pin num="14" name="IO9" type="bidirectional"/>
+        <pin num="15" name="IO10" type="bidirectional"/>
+        <pin num="16" name="IO11" type="bidirectional"/>
+        <pin num="17" name="IO12" type="bidirectional"/>
+        <pin num="18" name="IO13" type="bidirectional"/>
+        <pin num="19" name="IO14" type="bidirectional"/>
+        <pin num="20" name="VDD3P3_RTC" type="power_in"/>
+        <pin num="21" name="IO15/32K_P" type="bidirectional"/>
+        <pin num="22" name="IO16/32K_N" type="bidirectional"/>
+        <pin num="23" name="IO17/DAC_1" type="bidirectional"/>
+        <pin num="24" name="IO18/DAC_2" type="bidirectional"/>
+        <pin num="25" name="IO19/USB_DN" type="bidirectional"/>
+        <pin num="26" name="IO20/USB_DP" type="bidirectional"/>
+        <pin num="27" name="VDD3P3_RTC_IO" type="power_in"/>
+        <pin num="28" name="IO21" type="bidirectional"/>
+        <pin num="29" name="IO26/SPICS1" type="bidirectional"/>
+        <pin num="30" name="VDD_SPI" type="power_in"/>
+        <pin num="31" name="SPIHD" type="no_connect"/>
+        <pin num="32" name="SPIWP" type="no_connect"/>
+        <pin num="33" name="SPICS0" type="no_connect"/>
+        <pin num="34" name="SPICLK" type="no_connect"/>
+        <pin num="35" name="SPIQ" type="no_connect"/>
+        <pin num="36" name="SPID" type="no_connect"/>
+        <pin num="37" name="IO33" type="bidirectional"/>
+        <pin num="38" name="IO34" type="bidirectional"/>
+        <pin num="39" name="IO35" type="bidirectional"/>
+        <pin num="40" name="IO36" type="bidirectional"/>
+        <pin num="41" name="IO37" type="bidirectional"/>
+        <pin num="42" name="IO38" type="bidirectional"/>
+        <pin num="43" name="MTCK/IO39" type="bidirectional"/>
+        <pin num="44" name="MTD0/IO40" type="bidirectional"/>
+        <pin num="45" name="VDD3P3_CPU" type="power_in"/>
+        <pin num="46" name="MTDI/IO41" type="bidirectional"/>
+        <pin num="47" name="MTMS/IO42" type="bidirectional"/>
+        <pin num="48" name="TXD0" type="output"/>
+        <pin num="49" name="RXD0" type="input"/>
+        <pin num="50" name="IO45" type="bidirectional"/>
+        <pin num="51" name="VDDA" type="power_in"/>
+        <pin num="52" name="XTAL_N" type="passive"/>
+        <pin num="53" name="XTAL_P" type="passive"/>
+        <pin num="54" name="VDDA" type="power_in"/>
+        <pin num="55" name="IO46" type="input"/>
+        <pin num="56" name="EN" type="input"/>
+        <pin num="57" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="G3VM-61D1" part="G3VM-61D1">
+      <description>MOSFET relay, 4pin DIP SMD, 60V 0.5A 0.5 A Through Hole, DC Switching SPST-NO MOSFET Solid State Relay, 1.3 V</description>
+      <docs>https://www.omron.com/ecb/products/pdf/en-g3vm_61a1_d1.pdf</docs>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G3VM-61D1</field>
+        <field name="Footprint">Package_DIP:DIP-4_W7.62mm_SMDSocket_SmallPads</field>
+        <field name="Datasheet">https://www.omron.com/ecb/products/pdf/en-g3vm_61a1_d1.pdf</field>
+        <field name="Manufacturer">Omron Electronics</field>
+        <field name="MFR Part#">G3VM-61D1(TR)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="D1" type="passive"/>
+        <pin num="4" name="D2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CP2102N-Axx-xQFN28">
+      <description>USB to UART master bridge, QFN-28</description>
+      <docs>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*5x5mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2102N-Axx-xQFN28</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm</field>
+        <field name="Datasheet">https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{DCD}" type="input"/>
+        <pin num="2" name="~{RI}/CLK" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="D+" type="bidirectional"/>
+        <pin num="5" name="D-" type="bidirectional"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="VREGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="~{RST}" type="input"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="~{SUSPEND}" type="output"/>
+        <pin num="12" name="SUSPEND" type="output"/>
+        <pin num="13" name="CHREN" type="output"/>
+        <pin num="14" name="CHR1" type="output"/>
+        <pin num="15" name="CHR0" type="output"/>
+        <pin num="16" name="~{WAKEUP}/GPIO.3" type="bidirectional"/>
+        <pin num="17" name="RS485/GPIO.2" type="bidirectional"/>
+        <pin num="18" name="~{RXT}/GPIO.1" type="bidirectional"/>
+        <pin num="19" name="~{TXT}/GPIO.0" type="bidirectional"/>
+        <pin num="20" name="GPIO.6" type="bidirectional"/>
+        <pin num="21" name="GPIO.5" type="bidirectional"/>
+        <pin num="22" name="GPIO.4" type="bidirectional"/>
+        <pin num="23" name="~{CTS}" type="input"/>
+        <pin num="24" name="~{RTS}" type="output"/>
+        <pin num="25" name="RXD" type="input"/>
+        <pin num="26" name="TXD" type="output"/>
+        <pin num="27" name="~{DSR}" type="input"/>
+        <pin num="28" name="~{DTR}" type="output"/>
+        <pin num="29" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power_Protection" part="USBLC6-2P6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-666</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <footprints>
+        <fp>SOT?666*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2P6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-666</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LD1117S33TR_SOT223">
+      <description>800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117S33TR_SOT223</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="ESP32-S2FH4">
+      <uri>/Users/william/workspaces/esp-atx-power/kicad/../librairies/symbols/ESP32-S2FH4.kicad_sym</uri>
+    </library>
+    <library logical="G3VM-61D1">
+      <uri>/Users/william/workspaces/esp-atx-power/kicad/../librairies/symbols/G3VM-61D1.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C104" pin="1" pintype="passive"/>
+      <node ref="C107" pin="1" pintype="passive"/>
+      <node ref="C108" pin="1" pintype="passive"/>
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="C203" pin="2" pintype="passive"/>
+      <node ref="C204" pin="1" pintype="passive"/>
+      <node ref="C205" pin="1" pintype="passive"/>
+      <node ref="C206" pin="2" pintype="passive"/>
+      <node ref="C207" pin="2" pintype="passive"/>
+      <node ref="C208" pin="2" pintype="passive"/>
+      <node ref="C209" pin="2" pintype="passive"/>
+      <node ref="C210" pin="2" pintype="passive"/>
+      <node ref="C211" pin="2" pintype="passive"/>
+      <node ref="D103" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K103" pin="4" pinfunction="D2" pintype="passive"/>
+      <node ref="K104" pin="4" pinfunction="D2" pintype="passive"/>
+      <node ref="L201" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R103" pin="2" pintype="passive"/>
+      <node ref="R113" pin="2" pintype="passive"/>
+      <node ref="U102" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U104" pin="6" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U104" pin="7" pinfunction="VREGIN" pintype="power_in"/>
+      <node ref="U201" pin="1" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U201" pin="20" pinfunction="VDD3P3_RTC" pintype="power_in"/>
+      <node ref="U201" pin="27" pinfunction="VDD3P3_RTC_IO" pintype="power_in"/>
+      <node ref="U201" pin="45" pinfunction="VDD3P3_CPU" pintype="power_in"/>
+      <node ref="U201" pin="51" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U201" pin="54" pinfunction="VDDA" pintype="power_in"/>
+    </net>
+    <net code="2" name="/ESP32/LNA_IN">
+      <node ref="C216" pin="1" pintype="passive"/>
+      <node ref="L202" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U201" pin="2" pinfunction="LNA_IN" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/ESP32/XTAL_N">
+      <node ref="C215" pin="1" pintype="passive"/>
+      <node ref="U201" pin="52" pinfunction="XTAL_N" pintype="passive"/>
+      <node ref="Y201" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="4" name="/ESP32/XTAL_P">
+      <node ref="C214" pin="1" pintype="passive"/>
+      <node ref="U201" pin="53" pinfunction="XTAL_P" pintype="passive"/>
+      <node ref="Y201" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/USB_IN_CC1">
+      <node ref="D101" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J105" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R110" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/USB_IN_CC2">
+      <node ref="D102" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J105" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R111" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/USB_IN_DN">
+      <node ref="J105" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J105" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U103" pin="1" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="8" name="/USB_IN_DP">
+      <node ref="J105" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J105" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U103" pin="3" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="9" name="BOOT">
+      <node ref="C106" pin="1" pintype="passive"/>
+      <node ref="Q102" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="SW102" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U201" pin="5" pinfunction="IO0/BOOT" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="DTR">
+      <node ref="Q101" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R109" pin="1" pintype="passive"/>
+      <node ref="U104" pin="28" pinfunction="~{DTR}" pintype="output"/>
+    </net>
+    <net code="11" name="EN">
+      <node ref="C105" pin="1" pintype="passive"/>
+      <node ref="Q101" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R103" pin="1" pintype="passive"/>
+      <node ref="SW101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U201" pin="56" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="C104" pin="2" pintype="passive"/>
+      <node ref="C105" pin="2" pintype="passive"/>
+      <node ref="C106" pin="2" pintype="passive"/>
+      <node ref="C107" pin="2" pintype="passive"/>
+      <node ref="C108" pin="2" pintype="passive"/>
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="C203" pin="1" pintype="passive"/>
+      <node ref="C204" pin="2" pintype="passive"/>
+      <node ref="C205" pin="2" pintype="passive"/>
+      <node ref="C206" pin="1" pintype="passive"/>
+      <node ref="C207" pin="1" pintype="passive"/>
+      <node ref="C208" pin="1" pintype="passive"/>
+      <node ref="C209" pin="1" pintype="passive"/>
+      <node ref="C210" pin="1" pintype="passive"/>
+      <node ref="C211" pin="1" pintype="passive"/>
+      <node ref="C212" pin="2" pintype="passive"/>
+      <node ref="C213" pin="1" pintype="passive"/>
+      <node ref="C214" pin="2" pintype="passive"/>
+      <node ref="C215" pin="2" pintype="passive"/>
+      <node ref="C216" pin="2" pintype="passive"/>
+      <node ref="C217" pin="2" pintype="passive"/>
+      <node ref="D101" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D102" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J105" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J105" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J105" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J105" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J105" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="R102" pin="1" pintype="passive"/>
+      <node ref="R105" pin="1" pintype="passive"/>
+      <node ref="R107" pin="1" pintype="passive"/>
+      <node ref="R110" pin="1" pintype="passive"/>
+      <node ref="R111" pin="1" pintype="passive"/>
+      <node ref="R112" pin="2" pintype="passive"/>
+      <node ref="R114" pin="1" pintype="passive"/>
+      <node ref="R115" pin="1" pintype="passive"/>
+      <node ref="SW101" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW102" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U102" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U103" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U104" pin="29" pinfunction="GND" pintype="passive"/>
+      <node ref="U104" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U201" pin="57" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y201" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y201" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="13" name="HDD_LED">
+      <node ref="K104" pin="3" pinfunction="D1" pintype="passive"/>
+      <node ref="R107" pin="2" pintype="passive"/>
+      <node ref="U201" pin="28" pinfunction="IO21" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(AE201-FEED)">
+      <node ref="C217" pin="1" pintype="passive"/>
+      <node ref="L202" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C201-Pad2)">
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="L201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U201" pin="3" pinfunction="VDD3P3" pintype="power_in"/>
+      <node ref="U201" pin="4" pinfunction="VDD3P3" pintype="power_in"/>
+    </net>
+    <net code="16" name="Net-(D103-K)">
+      <node ref="D103" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R114" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D104-K)">
+      <node ref="D104" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R115" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(J101-Pin_1)">
+      <node ref="J101" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J101" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K101" pin="4" pinfunction="D2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(J101-Pin_3)">
+      <node ref="J101" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J101" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="K101" pin="3" pinfunction="D1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J102-Pin_1)">
+      <node ref="J102" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J102" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K102" pin="4" pinfunction="D2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J102-Pin_3)">
+      <node ref="J102" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J102" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="K102" pin="3" pinfunction="D1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J103-Pin_1)">
+      <node ref="J103" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J103" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K103" pin="2" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J103-Pin_3)">
+      <node ref="J103" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J103" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R104" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J104-Pin_1)">
+      <node ref="J104" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J104" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K104" pin="2" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(J104-Pin_3)">
+      <node ref="J104" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J104" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R106" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(K101-K)">
+      <node ref="K101" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(K102-K)">
+      <node ref="K102" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(K103-A)">
+      <node ref="K103" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R104" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(K104-A)">
+      <node ref="K104" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R106" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(Q101-B)">
+      <node ref="Q101" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R108" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(Q102-B)">
+      <node ref="Q102" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R109" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(U104-~{RST})">
+      <node ref="R113" pin="1" pintype="passive"/>
+      <node ref="U104" pin="9" pinfunction="~{RST}" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(U104-~{SUSPEND})">
+      <node ref="R112" pin="1" pintype="passive"/>
+      <node ref="U104" pin="11" pinfunction="~{SUSPEND}" pintype="output"/>
+    </net>
+    <net code="34" name="Net-(U201-MTCK{slash}IO39)">
+      <node ref="U201" pin="43" pinfunction="MTCK/IO39" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="Net-(U201-MTD0{slash}IO40)">
+      <node ref="U201" pin="44" pinfunction="MTD0/IO40" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="Net-(U201-MTDI{slash}IO41)">
+      <node ref="U201" pin="46" pinfunction="MTDI/IO41" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(U201-MTMS{slash}IO42)">
+      <node ref="U201" pin="47" pinfunction="MTMS/IO42" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Net-(U201-TXD0)">
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="U201" pin="48" pinfunction="TXD0" pintype="output"/>
+    </net>
+    <net code="39" name="Net-(U201-VDD_SPI)">
+      <node ref="C212" pin="1" pintype="passive"/>
+      <node ref="C213" pin="2" pintype="passive"/>
+      <node ref="U201" pin="30" pinfunction="VDD_SPI" pintype="power_in"/>
+    </net>
+    <net code="40" name="PWR_LED">
+      <node ref="K103" pin="3" pinfunction="D1" pintype="passive"/>
+      <node ref="R105" pin="2" pintype="passive"/>
+      <node ref="U201" pin="29" pinfunction="IO26/SPICS1" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="PWR_SW">
+      <node ref="K101" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U201" pin="41" pinfunction="IO37" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="RST_SW">
+      <node ref="K102" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U201" pin="42" pinfunction="IO38" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="RTS">
+      <node ref="Q102" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R108" pin="1" pintype="passive"/>
+      <node ref="U104" pin="24" pinfunction="~{RTS}" pintype="output"/>
+    </net>
+    <net code="44" name="RX">
+      <node ref="R201" pin="2" pintype="passive"/>
+      <node ref="U104" pin="25" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="45" name="STATUS">
+      <node ref="D104" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U201" pin="6" pinfunction="IO1" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="TX">
+      <node ref="U104" pin="26" pinfunction="TXD" pintype="output"/>
+      <node ref="U201" pin="49" pinfunction="RXD0" pintype="input"/>
+    </net>
+    <net code="47" name="USB_DN">
+      <node ref="U103" pin="6" pinfunction="I/O1" pintype="passive"/>
+      <node ref="U104" pin="5" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="USB_DP">
+      <node ref="U103" pin="4" pinfunction="I/O2" pintype="passive"/>
+      <node ref="U104" pin="4" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="VBUS">
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="J105" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J105" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J105" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J105" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="U102" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U103" pin="5" pinfunction="VBUS" pintype="passive"/>
+      <node ref="U104" pin="8" pinfunction="VBUS" pintype="input"/>
+    </net>
+    <net code="50" name="unconnected-(J105-SBU1-PadA8)">
+      <node ref="J105" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(J105-SBU2-PadB8)">
+      <node ref="J105" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U104-CHR0-Pad15)">
+      <node ref="U104" pin="15" pinfunction="CHR0" pintype="output+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U104-CHR1-Pad14)">
+      <node ref="U104" pin="14" pinfunction="CHR1" pintype="output+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U104-CHREN-Pad13)">
+      <node ref="U104" pin="13" pinfunction="CHREN" pintype="output+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U104-GPIO.4-Pad22)">
+      <node ref="U104" pin="22" pinfunction="GPIO.4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U104-GPIO.5-Pad21)">
+      <node ref="U104" pin="21" pinfunction="GPIO.5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U104-GPIO.6-Pad20)">
+      <node ref="U104" pin="20" pinfunction="GPIO.6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U104-NC-Pad10)">
+      <node ref="U104" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U104-RS485{slash}GPIO.2-Pad17)">
+      <node ref="U104" pin="17" pinfunction="RS485/GPIO.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U104-SUSPEND-Pad12)">
+      <node ref="U104" pin="12" pinfunction="SUSPEND" pintype="output+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U104-~{CTS}-Pad23)">
+      <node ref="U104" pin="23" pinfunction="~{CTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U104-~{DCD}-Pad1)">
+      <node ref="U104" pin="1" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U104-~{DSR}-Pad27)">
+      <node ref="U104" pin="27" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U104-~{RI}{slash}CLK-Pad2)">
+      <node ref="U104" pin="2" pinfunction="~{RI}/CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U104-~{RXT}{slash}GPIO.1-Pad18)">
+      <node ref="U104" pin="18" pinfunction="~{RXT}/GPIO.1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U104-~{TXT}{slash}GPIO.0-Pad19)">
+      <node ref="U104" pin="19" pinfunction="~{TXT}/GPIO.0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U104-~{WAKEUP}{slash}GPIO.3-Pad16)">
+      <node ref="U104" pin="16" pinfunction="~{WAKEUP}/GPIO.3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U201-IO2-Pad7)">
+      <node ref="U201" pin="7" pinfunction="IO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U201-IO3-Pad8)">
+      <node ref="U201" pin="8" pinfunction="IO3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U201-IO4-Pad9)">
+      <node ref="U201" pin="9" pinfunction="IO4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U201-IO5-Pad10)">
+      <node ref="U201" pin="10" pinfunction="IO5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U201-IO6-Pad11)">
+      <node ref="U201" pin="11" pinfunction="IO6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U201-IO7-Pad12)">
+      <node ref="U201" pin="12" pinfunction="IO7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U201-IO8-Pad13)">
+      <node ref="U201" pin="13" pinfunction="IO8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U201-IO9-Pad14)">
+      <node ref="U201" pin="14" pinfunction="IO9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U201-IO10-Pad15)">
+      <node ref="U201" pin="15" pinfunction="IO10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U201-IO11-Pad16)">
+      <node ref="U201" pin="16" pinfunction="IO11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U201-IO12-Pad17)">
+      <node ref="U201" pin="17" pinfunction="IO12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U201-IO13-Pad18)">
+      <node ref="U201" pin="18" pinfunction="IO13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U201-IO14-Pad19)">
+      <node ref="U201" pin="19" pinfunction="IO14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U201-IO15{slash}32K_P-Pad21)">
+      <node ref="U201" pin="21" pinfunction="IO15/32K_P" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U201-IO16{slash}32K_N-Pad22)">
+      <node ref="U201" pin="22" pinfunction="IO16/32K_N" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U201-IO17{slash}DAC_1-Pad23)">
+      <node ref="U201" pin="23" pinfunction="IO17/DAC_1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U201-IO18{slash}DAC_2-Pad24)">
+      <node ref="U201" pin="24" pinfunction="IO18/DAC_2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U201-IO19{slash}USB_DN-Pad25)">
+      <node ref="U201" pin="25" pinfunction="IO19/USB_DN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U201-IO20{slash}USB_DP-Pad26)">
+      <node ref="U201" pin="26" pinfunction="IO20/USB_DP" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U201-IO33-Pad37)">
+      <node ref="U201" pin="37" pinfunction="IO33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U201-IO34-Pad38)">
+      <node ref="U201" pin="38" pinfunction="IO34" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U201-IO35-Pad39)">
+      <node ref="U201" pin="39" pinfunction="IO35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U201-IO36-Pad40)">
+      <node ref="U201" pin="40" pinfunction="IO36" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U201-IO45-Pad50)">
+      <node ref="U201" pin="50" pinfunction="IO45" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U201-IO46-Pad55)">
+      <node ref="U201" pin="55" pinfunction="IO46" pintype="input+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U201-SPICLK-Pad34)">
+      <node ref="U201" pin="34" pinfunction="SPICLK" pintype="no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U201-SPICS0-Pad33)">
+      <node ref="U201" pin="33" pinfunction="SPICS0" pintype="no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U201-SPID-Pad36)">
+      <node ref="U201" pin="36" pinfunction="SPID" pintype="no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U201-SPIHD-Pad31)">
+      <node ref="U201" pin="31" pinfunction="SPIHD" pintype="no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U201-SPIQ-Pad35)">
+      <node ref="U201" pin="35" pinfunction="SPIQ" pintype="no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U201-SPIWP-Pad32)">
+      <node ref="U201" pin="32" pinfunction="SPIWP" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

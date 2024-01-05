@@ -1,0 +1,3 @@
+*.gbrjob
+kicad/esp-atx-power-backups
+kicad/*.lck
