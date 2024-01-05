@@ -1,3 +1,5 @@
 *.gbrjob
 kicad/esp-atx-power-backups
 kicad/*.lck
+.esphome/
+secrets.yaml

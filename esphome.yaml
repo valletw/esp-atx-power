@@ -1,0 +1,83 @@
+esphome:
+  name: !secret hostname
+  comment: ATX Power controller
+  project:
+    name: valletw.esp-atx-power
+    version: 1.0.0
+
+esp32:
+  board: um_tinys2
+  flash_size: 4MB
+  variant: esp32s2
+  framework:
+    type: esp-idf
+    version: recommended
+    sdkconfig_options:
+      COMPILER_OPTIMIZATION_SIZE: y
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  ap:
+    ssid: !secret wifi_fb_ssid
+    password: !secret wifi_fb_password
+
+captive_portal:
+
+ota:
+  safe_mode: true
+  password: !secret ota_password
+
+api:
+  encryption:
+    key: !secret api_key
+
+logger:
+  hardware_uart: UART0
+
+status_led:
+  pin: 1
+
+output:
+  - platform: gpio
+    id: atx_power_button
+    pin: 37
+
+  - platform: gpio
+    id: atx_reset_button
+    pin: 38
+
+button:
+  - platform: output
+    name: Power reset
+    icon: mdi:power
+    output: atx_power_button
+    duration: 300ms
+
+  - platform: output
+    name: Power hard-reset
+    icon: mdi:power
+    output: atx_power_button
+    duration: 5500ms
+
+  - platform: output
+    name: Reset
+    icon: mdi:power-cycle
+    output: atx_reset_button
+    duration: 300ms
+
+  - platform: restart
+    name: Restart controller
+
+binary_sensor:
+  - platform: gpio
+    name: Power State
+    icon: mdi:power
+    device_class: power
+    pin: 20
+
+  - platform: gpio
+    name: HDD Activity
+    icon: mdi:harddisk
+    device_class: running
+    pin: 21
