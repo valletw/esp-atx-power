@@ -1,0 +1,31 @@
+Reference(s),Value,Qty,Footprint,JLCPCB Part#,MFR Part#,Manufacturer,Datasheet
+"C103, C105, C106, C108, C202, C206, C207, C208, C209, C212",100n,10,Capacitor_SMD:C_0402_1005Metric,C1525,CL05B104KO5NNNC,Samsung Electro-Mechanics,https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf
+"C104, C204",10u,2,Capacitor_SMD:C_0402_1005Metric,C15525,CL05A106MQ5NUNC,Samsung Electro-Mechanics,https://datasheet.lcsc.com/lcsc/2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf
+C107,4.7u,1,Capacitor_SMD:C_0402_1005Metric,C23733,CL05A475MP5NRNC,Samsung Electro-Mechanics,https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf
+"C201, C211",100p,2,Capacitor_SMD:C_0402_1005Metric,C1546,0402CG101J500NT,FH (Guangdong Fenghua Advanced Tech),https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG101J500NT_C1546.pdf
+"C203, C210, C213",1u,3,Capacitor_SMD:C_0402_1005Metric,C52923,CL05A105KA5NQNC,Samsung Electro-Mechanics,https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf
+C205,22u,1,Capacitor_SMD:C_0603_1608Metric,C59461,CL10A226MQ8NRNC,Samsung Electro-Mechanics,https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A226MQ8NRNC_C59461.pdf
+"C214, C215",12p,2,Capacitor_SMD:C_0402_1005Metric,C1547,0402CG120J500NT,FH (Guangdong Fenghua Advanced Tech),https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf
+"C216, C217",1.8p,2,Capacitor_SMD:C_0402_1005Metric,C1553,0402CG1R8C500NT,FH (Guangdong Fenghua Advanced Tech),https://datasheet.lcsc.com/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG1R8C500NT_C1553.pdf
+"D101, D102",TPD1E05U06,2,Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm,C436349,TPD1E05U06DPYR,Texas Instruments,https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf
+D103,Red,1,LED_SMD:LED_0603_1608Metric,C2286,KT-0603R,Hubei KENTO Elec,https://datasheet.lcsc.com/lcsc/1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf
+D104,Green,1,LED_SMD:LED_0603_1608Metric,C72043,19-217/GHC-YR1S2/3T,Everlight Elec,https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf
+"J101, J102, J103, J104",Conn_02x02_Odd_Even,4,Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal,C2935934,DZ254W-22-04-69,DEALON,https://datasheet.lcsc.com/lcsc/2201121730_DEALON-DZ254W-22-04-69_C2935934.pdf
+J105,GT-USB-7010ASV,1,Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV,C2988369,GT-USB-7010ASV,G-Switch,https://datasheet.lcsc.com/lcsc/2303271630_G-Switch-GT-USB-7010ASV_C2988369.pdf
+"K101, K102, K103, K104",G3VM-61D1,4,Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads,C469131,G3VM-61D1(TR),Omron Electronics,https://www.omron.com/ecb/products/pdf/en-g3vm_61a1_d1.pdf
+L201,2n,1,Inductor_SMD:L_0402_1005Metric,C18216,LQG15HS2N0S02D,Murata Electronics,https://datasheet.lcsc.com/lcsc/2304140030_Murata-Electronics-LQG15HS2N0S02D_C18216.pdf
+L202,2.5n,1,Inductor_SMD:L_0402_1005Metric,C237342,LQW15AN2N5B00D,Murata Electronics,https://datasheet.lcsc.com/lcsc/2304140030_Murata-Electronics-LQW15AN2N5B00D_C237342.pdf
+"Q101, Q102",SS8050,2,Package_TO_SOT_SMD:SOT-23,C2150,SS8050,"Jiangsu Changjing Electronics Technology Co., Ltd.",https://datasheet.lcsc.com/lcsc/2303221100_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--SS8050_C2150.pdf
+"R101, R102, R104, R106",390,4,Resistor_SMD:R_0603_1608Metric,C23151,0603WAF3900T5E,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF3900T5E_C23151.pdf
+"R103, R108, R109, R112, R113",10k,5,Resistor_SMD:R_0402_1005Metric,C25744,0402WGF1002TCE,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+"R105, R107",4.7k,2,Resistor_SMD:R_0402_1005Metric,C25900,0402WGF4701TCE,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf
+"R110, R111",5.1k,2,Resistor_SMD:R_0402_1005Metric,C25905,0402WGF5101TCE,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf
+R114,100,1,Resistor_SMD:R_0402_1005Metric,C25076,0402WGF1000TCE,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf
+R115,10,1,Resistor_SMD:R_0402_1005Metric,C25077,0402WGF100JTCE,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF100JTCE_C25077.pdf
+R201,470,1,Resistor_SMD:R_0402_1005Metric,C25117,0402WGF4700TCE,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF4700TCE_C25117.pdf
+"SW101, SW102",TS-1187A-B-A-B,2,Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A,C318884,TS-1187A-B-A-B,XKB Connectivity,https://datasheet.lcsc.com/lcsc/2304140030_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf
+U102,LD1117S33CTR,1,Package_TO_SOT_SMD:SOT-223-3_TabPin2,C35879,LD1117S33CTR,STMicroelectronics,http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf
+U103,USBLC6-2P6,1,Package_TO_SOT_SMD:SOT-666,C15999,USBLC6-2P6,STMicroelectronics,https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+U104,CP2102-GMR,1,Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm,C6568,CP2102-GMR,Silicon Labs,https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf
+U201,ESP32-S2FH4,1,Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm,C2840995,ESP32-S2FH4,Espressif Systems,https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf
+Y201,40MHz,1,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,C2875582,K3A4000010.510,KYX,https://datasheet.lcsc.com/lcsc/2108150430_KYX-K3A4000010-510_C2875582.pdf
