@@ -7,6 +7,8 @@ Home Assistant by using [ESPHome](https://esphome.io) firmware.
 Custom software could be written by using ESP-IDF SDK but it is not the purpose
 of this project.
 
+![Board](img/board-unboxed.jpg)
+
 ## Hardware
 
 Double 2.54mm pin headers are set for each ATX functionalities to manage:
