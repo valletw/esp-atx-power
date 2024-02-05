@@ -6,8 +6,8 @@
 
   (title_block
     (title "ESP32 ATX Power Controller")
-    (date "2024-01-14")
-    (rev "1.0.0")
+    (date "2024-02-05")
+    (rev "1.0.1")
   )
 
   (lib_symbols

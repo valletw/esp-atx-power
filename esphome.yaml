@@ -3,7 +3,7 @@ esphome:
   comment: ATX Power controller
   project:
     name: valletw.esp-atx-power
-    version: 1.0.0
+    version: 1.0.1
 
 esp32:
   board: um_tinys2

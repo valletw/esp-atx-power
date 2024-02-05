@@ -20,8 +20,8 @@ L202,2.5n,1,0402,C237342,LQW15AN2N5B00D,Murata Electronics,https://datasheet.lcs
 "R103, R108, R109, R112, R113",10k,5,0402,C25744,0402WGF1002TCE,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
 "R105, R107",4.7k,2,0402,C25900,0402WGF4701TCE,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf
 "R110, R111",5.1k,2,0402,C25905,0402WGF5101TCE,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf
-R114,100,1,0402,C25076,0402WGF1000TCE,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf
-R115,10,1,0402,C25077,0402WGF100JTCE,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF100JTCE_C25077.pdf
+R114,200,1,0402,C25087,0402WGF2000TCE,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF2000TCE_C25087.pdf
+R115,22,1,0402,C25092,0402WGF220JTCE,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.pdf
 R201,470,1,0402,C25117,0402WGF4700TCE,UNI-ROYAL(Uniroyal Elec),https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF4700TCE_C25117.pdf
 "SW101, SW102",TS-1187A-B-A-B,2,XKB TS-1187A,C318884,TS-1187A-B-A-B,XKB Connectivity,https://datasheet.lcsc.com/lcsc/2304140030_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf
 U102,LD1117S33CTR,1,SOT-223-3,C35879,LD1117S33CTR,STMicroelectronics,http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf
