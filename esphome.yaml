@@ -18,6 +18,8 @@ esp32:
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
+  output_power: 17dB
+  fast_connect: On
   ap:
     ssid: !secret wifi_fb_ssid
     password: !secret wifi_fb_password
