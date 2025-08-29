@@ -49,6 +49,11 @@ output:
     id: atx_reset_button
     pin: 38
 
+sensor:
+  - platform: wifi_signal
+    name: "WiFi RSSI"
+    update_interval: 60s
+
 button:
   - platform: output
     name: Power reset
