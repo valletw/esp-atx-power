@@ -3,17 +3,14 @@ esphome:
   comment: ATX Power controller
   project:
     name: valletw.esp-atx-power
-    version: 1.0.2
+    version: 2.0.0
 
 esp32:
-  board: um_tinys2
+  variant: esp32c3
   flash_size: 4MB
-  variant: esp32s2
   framework:
     type: esp-idf
     version: recommended
-    sdkconfig_options:
-      COMPILER_OPTIMIZATION_SIZE: y
 
 wifi:
   ssid: !secret wifi_ssid
@@ -38,16 +35,18 @@ logger:
   hardware_uart: UART0
 
 status_led:
-  pin: 1
+  pin:
+    number: GPIO8
+    ignore_strapping_warning: true
 
 output:
   - platform: gpio
     id: atx_power_button
-    pin: 37
+    pin: GPIO0
 
   - platform: gpio
     id: atx_reset_button
-    pin: 38
+    pin: GPIO1
 
 sensor:
   - platform: wifi_signal
@@ -81,10 +80,10 @@ binary_sensor:
     name: Power State
     icon: mdi:power
     device_class: power
-    pin: 20
+    pin: GPIO3
 
   - platform: gpio
     name: HDD Activity
     icon: mdi:harddisk
     device_class: running
-    pin: 21
+    pin: GPIO10
