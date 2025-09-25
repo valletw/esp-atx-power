@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32 ATX Power Controller")
-		(date "2025-09-08")
-		(rev "2.0.0")
+		(date "2025-09-25")
+		(rev "2.0.1")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
@@ -2916,6 +2916,144 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SMF5V0A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMF5V0A"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMF"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/doc?85881"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMF5V0A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMF5V0A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12171,7 +12309,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
+		(lib_id "Diode:SMF5V0A")
 		(at 40.64 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14924,8 +15062,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 170.18 185.42 90)
+		(lib_id "Diode:SMF5V0A")
+		(at 170.18 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14933,7 +15071,7 @@
 		(dnp no)
 		(uuid "bc60ed31-a4f5-41d5-9079-80b9a6ba9f6e")
 		(property "Reference" "D106"
-			(at 157.48 184.404 90)
+			(at 167.64 186.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14942,7 +15080,7 @@
 			)
 		)
 		(property "Value" "SMF5.0A"
-			(at 157.48 186.436 90)
+			(at 167.64 184.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
