@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32 ATX Power Controller")
-		(date "2025-09-25")
-		(rev "2.0.1")
+		(date "2026-01-29")
+		(rev "2.1.0")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
@@ -3071,7 +3071,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "G3VM-61D1:G3VM-61D1"
+		(symbol "G3VM-61VY3:G3VM-61VY3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3084,7 +3084,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "G3VM-61D1"
+			(property "Value" "G3VM-61VY3"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -3093,7 +3093,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-4_W7.62mm_SMDSocket_SmallPads"
+			(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
 				(at 19.05 -94.92 0)
 				(effects
 					(font
@@ -3103,7 +3103,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g3vm_61a1_d1.pdf"
+			(property "Datasheet" "https://components.omron.com/sites/components.omron.com.eu/files/datasheet_pdf/K282-E1.pdf"
 				(at 19.05 -194.92 0)
 				(effects
 					(font
@@ -3132,7 +3132,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFR Part#" "G3VM-61D1(TR)"
+			(property "MFR Part#" "G3VM-61VY3(TR)"
 				(at 19.05 -594.92 0)
 				(effects
 					(font
@@ -3142,7 +3142,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "G3VM-61D1_0_1"
+			(symbol "G3VM-61VY3_0_1"
 				(polyline
 					(pts
 						(xy 1.27 1.27) (xy 2.54 -1.27) (xy 3.81 1.27) (xy 1.27 1.27)
@@ -3216,7 +3216,7 @@
 					)
 				)
 			)
-			(symbol "G3VM-61D1_1_1"
+			(symbol "G3VM-61VY3_1_1"
 				(rectangle
 					(start 0 5.08)
 					(end 12.7 -5.08)
@@ -6862,6 +6862,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 66.04) (xy 214.63 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648c6670-6f7b-451c-920d-a2ed117c31cb")
+	)
+	(wire
+		(pts
 			(xy 148.59 149.86) (xy 158.75 149.86)
 		)
 		(stroke
@@ -7029,16 +7039,6 @@
 			(type default)
 		)
 		(uuid "7493ea90-3862-4477-9dce-a40f0e289727")
-	)
-	(wire
-		(pts
-			(xy 214.63 66.04) (xy 215.9 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74f93a6d-f871-4abc-b810-07bef92bc491")
 	)
 	(wire
 		(pts
@@ -9759,6 +9759,111 @@
 		)
 	)
 	(symbol
+		(lib_id "G3VM-61VY3:G3VM-61VY3")
+		(at 233.68 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b628b55-8e55-454a-b3e3-0c9c7f899986")
+		(property "Reference" "K103"
+			(at 227.33 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G3VM-61VY3"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
+			(at 214.63 163.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://components.omron.com/sites/components.omron.com.eu/files/datasheet_pdf/K282-E1.pdf"
+			(at 214.63 263.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET relay, 4pin DIP SMD, 60V 0.5A 0.5 A Through Hole, DC Switching SPST-NO MOSFET Solid State Relay, 1.3 V"
+			(at 233.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron Electronics"
+			(at 214.63 563.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "G3VM-61VY3(TR)"
+			(at 214.63 663.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2152318"
+			(at 233.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12dc5d05-a5a6-4557-8a22-f819dddae5a4")
+		)
+		(pin "4"
+			(uuid "1075eeae-b8f6-4321-8e53-7b05010bdf1d")
+		)
+		(pin "3"
+			(uuid "fcaeacd6-847c-40c9-8b4f-c5867cadef0c")
+		)
+		(pin "1"
+			(uuid "d413c6f7-a755-4eca-8cb4-6021f6bfb8be")
+		)
+		(instances
+			(project "esp-atx-power"
+				(path "/0502a6a9-5fe6-43a5-b6f7-3b5176fd87b6"
+					(reference "K103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 128.27 165.1 0)
 		(unit 1)
@@ -10285,6 +10390,111 @@
 		)
 	)
 	(symbol
+		(lib_id "G3VM-61VY3:G3VM-61VY3")
+		(at 233.68 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "120d63be-f92d-42bf-aa01-46a03c6dcb2b")
+		(property "Reference" "K104"
+			(at 227.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G3VM-61VY3"
+			(at 227.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
+			(at 214.63 185.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://components.omron.com/sites/components.omron.com.eu/files/datasheet_pdf/K282-E1.pdf"
+			(at 214.63 285.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET relay, 4pin DIP SMD, 60V 0.5A 0.5 A Through Hole, DC Switching SPST-NO MOSFET Solid State Relay, 1.3 V"
+			(at 233.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron Electronics"
+			(at 214.63 585.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "G3VM-61VY3(TR)"
+			(at 214.63 685.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2152318"
+			(at 233.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8f39760-888c-444a-95ba-5dc5b6644668")
+		)
+		(pin "4"
+			(uuid "4a0f81e5-4674-453a-92c7-53d8f7c97386")
+		)
+		(pin "3"
+			(uuid "612244f4-76ee-4b40-94b3-9220bf3d431c")
+		)
+		(pin "1"
+			(uuid "ce4d2b67-2b02-4a03-95d9-93574fc626c1")
+		)
+		(instances
+			(project "esp-atx-power"
+				(path "/0502a6a9-5fe6-43a5-b6f7-3b5176fd87b6"
+					(reference "K104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 35.56 139.7 0)
 		(unit 1)
@@ -10439,110 +10649,6 @@
 			(project ""
 				(path "/0502a6a9-5fe6-43a5-b6f7-3b5176fd87b6"
 					(reference "L102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "G3VM-61D1:G3VM-61D1")
-		(at 233.68 68.58 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "190f7742-d370-4c3f-a99c-c414060149ad")
-		(property "Reference" "K103"
-			(at 227.33 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "G3VM-61D1"
-			(at 227.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
-			(at 214.63 163.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g3vm_61a1_d1.pdf"
-			(at 214.63 263.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron Electronics"
-			(at 214.63 563.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C469131"
-			(at 233.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part #" "G3VM-61D1(TR)"
-			(at 233.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "755be914-f3f8-484c-b64c-483108d748f9")
-		)
-		(pin "2"
-			(uuid "f646b3e9-08c9-4acd-8081-3e3d44a9025d")
-		)
-		(pin "3"
-			(uuid "36aee5f5-366e-42dc-8c76-0a4c41a1e39c")
-		)
-		(pin "4"
-			(uuid "f3d4f1f8-31fb-4fa4-ae58-9ae27b68dc40")
-		)
-		(instances
-			(project "esp-atx-power"
-				(path "/0502a6a9-5fe6-43a5-b6f7-3b5176fd87b6"
-					(reference "K103")
 					(unit 1)
 				)
 			)
@@ -13979,109 +14085,6 @@
 		)
 	)
 	(symbol
-		(lib_id "G3VM-61D1:G3VM-61D1")
-		(at 220.98 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0be9e27-357c-401b-84bf-f6fa27a1b36a")
-		(property "Reference" "K102"
-			(at 227.33 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "G3VM-61D1"
-			(at 227.33 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
-			(at 240.03 141.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g3vm_61a1_d1.pdf"
-			(at 240.03 241.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron Electronics"
-			(at 240.03 541.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C469131"
-			(at 220.98 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part #" "G3VM-61D1(TR)"
-			(at 220.98 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "705b1c9a-4fd0-4b90-b1e1-ad656df8d595")
-		)
-		(pin "2"
-			(uuid "950cc927-0e11-4bc9-82a4-36da0e61f6cf")
-		)
-		(pin "3"
-			(uuid "fed5920c-6882-4c44-a31d-b04951a53232")
-		)
-		(pin "4"
-			(uuid "521a7d47-4501-4b49-9b50-8897148fcb97")
-		)
-		(instances
-			(project "esp-atx-power"
-				(path "/0502a6a9-5fe6-43a5-b6f7-3b5176fd87b6"
-					(reference "K102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 48.26 115.57 0)
 		(unit 1)
@@ -15158,109 +15161,6 @@
 		)
 	)
 	(symbol
-		(lib_id "G3VM-61D1:G3VM-61D1")
-		(at 220.98 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0e386c7-78eb-4ab9-b9b9-dc98c8ccd84b")
-		(property "Reference" "K101"
-			(at 227.33 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "G3VM-61D1"
-			(at 227.33 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
-			(at 240.03 121.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g3vm_61a1_d1.pdf"
-			(at 240.03 221.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron Electronics"
-			(at 240.03 521.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C469131"
-			(at 220.98 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part #" "G3VM-61D1(TR)"
-			(at 220.98 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ddd49b79-bfc7-448f-8bff-26837cb10b9e")
-		)
-		(pin "2"
-			(uuid "e434a17c-b75c-46b4-9c79-40b330967861")
-		)
-		(pin "3"
-			(uuid "6ab3769d-eb64-4d49-8271-e5d1b8892661")
-		)
-		(pin "4"
-			(uuid "07d392fd-e2e1-48f5-b622-ca117547f1e9")
-		)
-		(instances
-			(project "esp-atx-power"
-				(path "/0502a6a9-5fe6-43a5-b6f7-3b5176fd87b6"
-					(reference "K101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 25.4 109.22 0)
 		(unit 1)
@@ -15715,6 +15615,111 @@
 		)
 	)
 	(symbol
+		(lib_id "G3VM-61VY3:G3VM-61VY3")
+		(at 220.98 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d27d9011-ba7a-4efe-a04e-8d3166637269")
+		(property "Reference" "K101"
+			(at 227.33 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G3VM-61VY3"
+			(at 227.33 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
+			(at 240.03 121.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://components.omron.com/sites/components.omron.com.eu/files/datasheet_pdf/K282-E1.pdf"
+			(at 240.03 221.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET relay, 4pin DIP SMD, 60V 0.5A 0.5 A Through Hole, DC Switching SPST-NO MOSFET Solid State Relay, 1.3 V"
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron Electronics"
+			(at 240.03 521.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "G3VM-61VY3(TR)"
+			(at 240.03 621.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2152318"
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8ee8523-6dbf-4424-9ab1-4fc0f7d8d37f")
+		)
+		(pin "4"
+			(uuid "5c32b45a-2268-45bb-a5c5-1394e4e59dae")
+		)
+		(pin "3"
+			(uuid "12c75032-01ea-4c9d-b517-cbaf72c34761")
+		)
+		(pin "1"
+			(uuid "d5a99fde-b264-41be-8aa7-b2f9fc0f9177")
+		)
+		(instances
+			(project ""
+				(path "/0502a6a9-5fe6-43a5-b6f7-3b5176fd87b6"
+					(reference "K101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 76.2 29.21 0)
 		(unit 1)
@@ -15867,110 +15872,6 @@
 			(project "esp-atx-power"
 				(path "/0502a6a9-5fe6-43a5-b6f7-3b5176fd87b6"
 					(reference "R117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "G3VM-61D1:G3VM-61D1")
-		(at 233.68 90.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da191057-0cc6-4907-9aba-f69ff798dd8f")
-		(property "Reference" "K104"
-			(at 227.33 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "G3VM-61D1"
-			(at 227.33 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
-			(at 214.63 185.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-g3vm_61a1_d1.pdf"
-			(at 214.63 285.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron Electronics"
-			(at 214.63 585.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C469131"
-			(at 233.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part #" "G3VM-61D1(TR)"
-			(at 233.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ee0630f-b2b2-4dc3-bc51-e665b8ce34fd")
-		)
-		(pin "2"
-			(uuid "71881398-af5d-4ca1-8f5b-00836171e723")
-		)
-		(pin "3"
-			(uuid "d8650502-a294-4078-92f7-a2b24dc2207a")
-		)
-		(pin "4"
-			(uuid "fc368879-d7cc-4bb3-8d42-52ce06485429")
-		)
-		(instances
-			(project "esp-atx-power"
-				(path "/0502a6a9-5fe6-43a5-b6f7-3b5176fd87b6"
-					(reference "K104")
 					(unit 1)
 				)
 			)
@@ -16224,6 +16125,111 @@
 			(project "esp-atx-power"
 				(path "/0502a6a9-5fe6-43a5-b6f7-3b5176fd87b6"
 					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "G3VM-61VY3:G3VM-61VY3")
+		(at 220.98 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e85b5f3d-09c9-4e38-a92e-b7b7bb3378f5")
+		(property "Reference" "K102"
+			(at 227.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G3VM-61VY3"
+			(at 227.33 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
+			(at 240.03 141.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://components.omron.com/sites/components.omron.com.eu/files/datasheet_pdf/K282-E1.pdf"
+			(at 240.03 241.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET relay, 4pin DIP SMD, 60V 0.5A 0.5 A Through Hole, DC Switching SPST-NO MOSFET Solid State Relay, 1.3 V"
+			(at 220.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron Electronics"
+			(at 240.03 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "G3VM-61VY3(TR)"
+			(at 240.03 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2152318"
+			(at 220.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8a6b401-dfd1-4da2-a85f-5fe7a2501a7a")
+		)
+		(pin "4"
+			(uuid "d1f2ae3e-339c-4389-85c3-f78cddd51dc6")
+		)
+		(pin "3"
+			(uuid "34afb988-fcd2-49af-8700-7d83d6877b9e")
+		)
+		(pin "1"
+			(uuid "e82b782e-0367-4144-bc66-cb828700b922")
+		)
+		(instances
+			(project "esp-atx-power"
+				(path "/0502a6a9-5fe6-43a5-b6f7-3b5176fd87b6"
+					(reference "K102")
 					(unit 1)
 				)
 			)
@@ -17050,7 +17056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/532/53261/532610471_sd.pdf?inline"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893497067229184"
 			(at 128.27 35.56 0)
 			(effects
 				(font
@@ -17068,7 +17074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "BOOMELE(Boom Precision Elec)"
 			(at 128.27 35.56 0)
 			(effects
 				(font
@@ -17077,7 +17083,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C240847"
+		(property "LCSC Part #" "C31597"
 			(at 128.27 35.56 0)
 			(effects
 				(font
@@ -17086,7 +17092,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part #" "532610471"
+		(property "MFR Part #" "1.25T-4PSurface Mount，Right Angle"
 			(at 128.27 35.56 0)
 			(effects
 				(font
